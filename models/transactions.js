@@ -1,30 +1,30 @@
 module.exports = [
   {
-    date: "April 1",
+    date: "2022-08-01",
     source: "Income",
     amount: 1000,
     form: "deli",
   },
   {
-    date: "April 1",
+    date: "08 01 2022",
     source: "Taxes",
     amount: -300,
     form: "deli",
   },
   {
-    date: "April 1",
+    date: "08 01 2022",
     source: "Retirement",
     amount: -200,
     form: "deli",
   },
   {
-    date: "April 1",
+    date: "08 01 2022",
     source: "Savings",
     amount: -100,
     form: "bank",
   },
   {
-    date: "April 1",
+    date: "08 01 2022",
     source: "Credit Card Payment",
     amount: -100,
     form: "pet store",
