@@ -21,7 +21,7 @@ transactions.post("/", (req, res) => {
 transactions.delete("/:index", (req, res) => {
   if (transactionsArray[req.params.index]) {
     const [deletedTransaction] = transactionsArray.splice(req.params.index, 1);
-    res.status(200).json(deletedTransaction);
+    res.status(200).json(transactionsArray);
   }
 });
 transactions.put("/:index", (req, res) => {
